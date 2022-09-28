@@ -1,0 +1,223 @@
+/**=======================
+            Assets 
+
+    border: #ccc.
+    color logo: #999.
+    color home: #fff.
+    color: #333
+    =======================**/
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: cinzel;
+    src: url("../fonts/Cinzel-VariableFont_wght.ttf");
+}
+
+
+
+
+/* 
+html {
+    font-size: 10px;
+} */
+
+
+
+
+/** ===========================
+            Header
+=============================== **/
+
+header h1 {
+    margin-left: 1rem;
+    font-family: cinzel;
+    color: grey;
+    font-size: 2rem;
+    padding: 2rem 5rem 2rem 6rem;
+    letter-spacing: 0.5;
+
+
+}
+
+
+
+header article h2 {
+    font-family: cinzel;
+    text-align: center;
+    font-size: 6rem;
+    color: #ffffff;
+}
+
+
+
+
+
+header article {
+
+    background-image: url("../img/Mountains.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25vh 0;
+    color: #ffffff;
+    background-position: center;
+    /* width: 100%; */
+
+}
+
+
+
+/** ===========================
+           Main
+=============================== **/
+
+
+
+main section h1 {
+    font-family: cinzel;
+    font-size: 2rem;
+    text-align: center;
+    margin: 6rem;
+    color: #333;
+    margin-top: 8rem;
+
+}
+
+
+
+
+main section p {
+    font-family: poppins;
+    font-size: 1em;
+    text-align: center;
+    margin: 10vh 26vw;
+}
+
+
+
+/** ===========================
+        Main Mountains
+=============================== **/
+
+main .Berge {
+    text-align: center;
+}
+
+
+main .Berge img {
+    /* margin: 3vh 0 0 3vw;
+    padding: 10vh 5vw;
+     */
+    margin: -1vh -16px 14px -2vw;
+    padding: 7vh 4vw;
+    text-align: center;
+    max-width: auto;
+
+}
+
+
+
+/** ===========================
+        Main Tour Dates
+=============================== **/
+
+
+h4 {
+    font-family: cinzel;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+    color: #333;
+}
+
+
+
+.tour ul {
+    margin-top: 5rem;
+    list-style-type: none;
+
+}
+
+
+.tour ul li {
+    font-family: poppins;
+    margin: 2rem 19rem;
+    font-size: 1.5rem;
+
+}
+
+.tour nav ul li:nth-of-type(1)::after {
+    content: " -SOLD OUT";
+    color: red;
+}
+
+.tour nav ul li:nth-of-type(2)::after {
+    content: " -SOLD OUT";
+    color: red;
+}
+
+.tour nav ul li:nth-of-type(3)::after {
+    content: " -SOLD OUT";
+    color: red;
+}
+
+.tour nav ul li:nth-of-type(4)::after {
+    content: " -On 4 SPOT AVAILABLE";
+    color: red;
+}
+
+.tour nav ul li:nth-of-type(5)::after {
+    content: " -AVAILABLE";
+    color: green;
+}
+
+.tour nav ul li:nth-of-type(6)::after {
+    content: " -AVAILABLE";
+    color: green;
+}
+
+
+/** ===========================
+              Footer
+=============================== **/
+
+footer {
+
+    border-top: 0.1rem solid;
+    padding: 4rem;
+    color: #ccc;
+}
+
+footer p {
+    font-size: 2rem;
+    font-family: cinzel;
+    color: #333;
+    font-style: bold;
+
+}
+
+footer a {
+    text-decoration: none;
+    padding-left: 65rem;
+    color: #333;
+}
+
+footer a:hover {
+    color: red;
+
+}
